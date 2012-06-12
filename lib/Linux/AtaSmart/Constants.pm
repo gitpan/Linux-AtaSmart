@@ -1,11 +1,11 @@
 package Linux::AtaSmart::Constants;
 {
-    $Linux::AtaSmart::Constants::VERSION = '1.0.0';
+    $Linux::AtaSmart::Constants::VERSION = '1.0.1';
 }
 
 # ABSTRACT: Constants for libatasmart
 
-use v5.14;
+use v5.10.1;
 use strict;
 use warnings;
 use base 'Exporter';
@@ -57,7 +57,7 @@ Linux::AtaSmart::Constants - Constants for libatasmart
 
 =head1 VERSION
 
-version 1.0.0
+version 1.0.1
 
 =head1 EXPORTS
 

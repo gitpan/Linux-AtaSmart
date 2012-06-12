@@ -1,6 +1,12 @@
 Changelog for Linux-AtaSmart
 
-1.0.0 2012-06-12T00:05:13
+1.0.1 2012-06-12T22:42:17
+ [Ioan Rogers <ioanr@cpan.org>]
+ - Drop minimum required perl version to match version distributed in
+   debian squeeze
+
+
+v1.0.0 2012-06-12T00:02:35
  [Ioan Rogers <ioanr@cpan.org>]
  - Release ready dist.ini
 

@@ -22,7 +22,7 @@ my %module_build_args = (
     "Ioan Rogers <ioanr\@cpan.org>"
   ],
   "dist_name" => "Linux-AtaSmart",
-  "dist_version" => "1.0.0",
+  "dist_version" => "1.0.1",
   "license" => "lgpl",
   "module_name" => "Linux::AtaSmart",
   "recommends" => {},
@@ -35,7 +35,7 @@ my %module_build_args = (
     "XSLoader" => 0,
     "base" => 0,
     "constant" => 0,
-    "perl" => "v5.14.0",
+    "perl" => "v5.10.1",
     "strict" => 0,
     "warnings" => 0
   },

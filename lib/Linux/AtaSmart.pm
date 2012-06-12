@@ -1,11 +1,11 @@
 package Linux::AtaSmart;
 {
-    $Linux::AtaSmart::VERSION = '1.0.0';
+    $Linux::AtaSmart::VERSION = '1.0.1';
 }
 
 # ABSTRACT: XS wrapper around libatasmart
 
-use v5.14;
+use v5.10.1;
 use Moo;
 use Carp;
 use XSLoader;
@@ -194,11 +194,11 @@ Linux::AtaSmart - XS wrapper around libatasmart
 
 =head1 VERSION
 
-version 1.0.0
+version 1.0.1
 
 =head1 SYNOPSIS
 
-  use v5.14;
+  use v5.10.1;
   use Linux::AtaSmart;
   use Linux::AtaSmart::Constants qw/:all/;
   
