@@ -1,0 +1,59 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.68.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+SHA1 0553a7f6e9e600614bd31717fdad1d02b4391997 Build.PL
+SHA1 8bd954701776719f61f155cae0b6b8d1cfc92f77 Changes
+SHA1 977fa7f48a28b2596c862d126c781d5456b4586c LICENSE
+SHA1 b37270a5c8ac90b0e4a16931f5fdca96875575b0 MANIFEST
+SHA1 d46e2beb8c99f59f645655dfcc2546fce2cf6a22 META.json
+SHA1 dc65b135495b8552485bb97b8afaa380ca832b11 README.mkdn
+SHA1 bb7a23c611fdf381c7149715fd69d0922d546e0a dist.ini
+SHA1 b242eabf970c671421709002f4b9fe4c3aecdcd1 eg/atasmart.pl
+SHA1 21f2af26710dc70db2e54f040f72cf4738fdca66 inc/My/Builder.pm
+SHA1 edded6f34ae3401c6b3daa3c00374ee059d31e2a lib/Linux/AtaSmart.pm
+SHA1 f3d795715fcbd2953731ddd2b5148e05d725f1d1 lib/Linux/AtaSmart.xs
+SHA1 8b7a9df237148775ff2a870b167af9eb32fc61d9 lib/Linux/AtaSmart/Constants.pm
+SHA1 2305c191be2b48f7bca782539c249aeb5f46b53a t/00-compile.t
+SHA1 11c72e6a1c365581b7be5a72ebe90537c544d7fd t/001_main.t
+SHA1 a4e98109b6ad4316b4f5fdd4cd6da9f6fff437af typemap
+SHA1 7e4d1c8bc515002ab83b969964b3e874b37b7908 weaver.ini
+SHA1 c1221a493fb516aed6b55b9321e3acd168ce81ef xt/author/critic.t
+SHA1 e3094e32340a9a0dcb90d91b77d66e61cbf7fa14 xt/perlcriticrc
+SHA1 98143fd89a26270feb9c17990090134e102b6a76 xt/perltidyrc
+SHA1 28ef20a73b7cf9b85585e2b7db6fc80424289134 xt/release/cpan-changes.t
+SHA1 f1df216d28e5f464bc6b68faf0b85cc0e38c7246 xt/release/kwalitee.t
+SHA1 7b52b909acf6cd52733f8f226f92147ed76a2717 xt/release/meta-json.t
+SHA1 a70b1e4bc5fb016448c3fad222c7e91163fbcec9 xt/release/pod-coverage.t
+SHA1 f147bbef9f1b2afd364b62a8be243f0b83f44747 xt/release/pod-linkcheck.t
+SHA1 82f40856cbbbc0ea86589931e1b2732a4b3e3bfa xt/release/pod-no404s.t
+SHA1 9934d36e45e1143c1a54658bc48872e0591af41b xt/release/pod-syntax.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQIcBAEBCgAGBQJP1ofBAAoJEOpmRc2kYGBP/8IP/jCmA/147CBp4oRKr1+lobS1
+l9JE7iyZBn82uua0pGsY7IjRdbD2qiU6Gedor4U2g1gAxKCc7eHj62CjKRD9zmaM
+97hOONIjfbu1W5Iw4uYZfUdiZUG1maLAlYc1G/WOF0m6EKkNXU/r8pRgpt+e4M7S
+w9LypJGpeE67uB9cPz59d3JcMLU7hj6XSwxB040L9omXtNs/6gMV6maEYyZuXrHN
+fk6MR+X33HObCXlGEVcvtLO9K8pyf2lij2jB27X2WFMFIhSdmYaPM1fSTodzV/Bh
+OxZubxprHzcHBFjdJ1tieEqTDZhXKf2D036yj9EkPFco2DEg0az+9bgJ2sl25QbM
+x5iv40pimg6HrlkEzA4LhknMgKmGY5FnfA6D84KLfbRy3Xd5dGOf8ko5rPiTm17K
+FMYklaqcpGX451OnmEUyzEMJ39uXHBLszyTzqePs8cG2JjA1aoeBLEoM1Torh1Pz
+QUm16PDfRFxS72rIl9ABn7s9JLg0GVCCQTHNH6DuWqjgYOAB7v/vJP51GXwui79f
+uIj0On+q/vYGDNVqF26omM9RqUjth74oRwGCLJawUL/4LM3J+6J7chUB0yk9trCj
+H+CqF3bnMywHysKYO4tUw+8g77qa/MMrZ4lTnj9Zp967njovUnlFiQcunL69WfNa
+T9//jg69y2RdudgL87Pq
+=fWEW
+-----END PGP SIGNATURE-----

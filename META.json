@@ -1,0 +1,94 @@
+{
+   "abstract" : "XS wrapper around libatasmart",
+   "author" : [
+      "Ioan Rogers <ioanr@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.300018, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "lgpl_3_0"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Linux-AtaSmart",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Module::Build" : "0.3601"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::PkgConfig" : "0",
+            "Module::Build" : "0.3601",
+            "Try::Tiny" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Carp" : "0",
+            "Exporter" : "0",
+            "Moo" : "0",
+            "Time::Seconds" : "0",
+            "XSLoader" : "0",
+            "base" : "0",
+            "constant" : "0",
+            "perl" : "v5.14.0",
+            "strict" : "0",
+            "warnings" : "0"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "File::Find" : "0",
+            "File::Temp" : "0",
+            "Test::More" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/ioanrogers/Linux-AtaSmart/issues"
+      },
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/ioanrogers/Linux-AtaSmart.git",
+         "web" : "https://github.com/ioanrogers/Linux-AtaSmart"
+      }
+   },
+   "version" : "1.0.0",
+   "x_BuiltWith" : {
+      "modules" : {
+         "Carp" : "1.26",
+         "Exporter" : "5.66",
+         "ExtUtils::PkgConfig" : "1.13",
+         "File::Find" : "1.20",
+         "File::Temp" : "0.22",
+         "Module::Build" : "0.4",
+         "Moo" : "0.091007",
+         "Test::More" : "0.98",
+         "Time::Seconds" : "NA(undef)",
+         "Try::Tiny" : "0.11",
+         "XSLoader" : "0.16",
+         "base" : "2.18",
+         "constant" : "1.23",
+         "perl" : "NA(skipped: perl)",
+         "strict" : "1.07",
+         "warnings" : "1.13"
+      },
+      "perl" : {
+         "original" : "v5.16.0",
+         "qv" : 1,
+         "version" : [
+            5,
+            16,
+            0
+         ]
+      },
+      "platform" : "linux"
+   }
+}
+
