@@ -1,6 +1,6 @@
 package Linux::AtaSmart;
 {
-    $Linux::AtaSmart::VERSION = '1.0.1';
+    $Linux::AtaSmart::VERSION = '1.0.2';
 }
 
 # ABSTRACT: XS wrapper around libatasmart
@@ -174,7 +174,7 @@ sub _read_data {
         confess "Failed to parse SMART data: $!";
     }
 
-    $self->_smart_data = 1;
+    $self->_smart_data(1);
 
 }
 
@@ -194,7 +194,7 @@ Linux::AtaSmart - XS wrapper around libatasmart
 
 =head1 VERSION
 
-version 1.0.1
+version 1.0.2
 
 =head1 SYNOPSIS
 

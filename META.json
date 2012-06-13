@@ -60,7 +60,7 @@
          "web" : "https://github.com/ioanrogers/Linux-AtaSmart"
       }
    },
-   "version" : "1.0.1",
+   "version" : "1.0.2",
    "x_BuiltWith" : {
       "modules" : {
          "Carp" : "1.26",

@@ -5,6 +5,13 @@ MANIFEST
 META.json
 README.mkdn
 SIGNATURE
+debian/changelog
+debian/compat
+debian/control
+debian/copyright
+debian/liblinux-atasmart-perl.examples
+debian/rules
+debian/source/format
 dist.ini
 eg/atasmart.pl
 inc/My/Builder.pm

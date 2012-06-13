@@ -22,7 +22,7 @@ my %module_build_args = (
     "Ioan Rogers <ioanr\@cpan.org>"
   ],
   "dist_name" => "Linux-AtaSmart",
-  "dist_version" => "1.0.1",
+  "dist_version" => "1.0.2",
   "license" => "lgpl",
   "module_name" => "Linux::AtaSmart",
   "recommends" => {},
