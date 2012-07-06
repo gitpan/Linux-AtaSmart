@@ -1,6 +1,18 @@
 Changelog for Linux-AtaSmart
 
-1.0.2 2012-06-13T08:09:46
+1.0.3 2012-07-06T09:05:28
+ [Ioan Rogers <ioanr@cpan.org>]
+ - Fixed incorrect default which only just manifested. Updated packaging
+
+ - Don't tidy on release, use @TestingMania
+
+ - lintian said to bump debhelper compat to 9 for hardening flags, and add
+   shlibs:Depends
+
+ - Only build on Linux
+
+
+v1.0.2 2012-06-13T08:09:16
  [Ioan Rogers <ioanr@cpan.org>]
  - Added debian packaging
 

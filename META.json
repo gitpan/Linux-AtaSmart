@@ -4,7 +4,7 @@
       "Ioan Rogers <ioanr@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300018, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Dist::Zilla version 4.300020, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "lgpl_3_0"
    ],
@@ -13,6 +13,11 @@
       "version" : "2"
    },
    "name" : "Linux-AtaSmart",
+   "no_index" : {
+      "directory" : [
+         "inc"
+      ]
+   },
    "prereqs" : {
       "build" : {
          "requires" : {
@@ -60,7 +65,7 @@
          "web" : "https://github.com/ioanrogers/Linux-AtaSmart"
       }
    },
-   "version" : "1.0.2",
+   "version" : "1.0.3",
    "x_BuiltWith" : {
       "modules" : {
          "Carp" : "1.26",
@@ -69,7 +74,7 @@
          "File::Find" : "1.20",
          "File::Temp" : "0.22",
          "Module::Build" : "0.4",
-         "Moo" : "0.091007",
+         "Moo" : "0.091011",
          "Test::More" : "0.98",
          "Time::Seconds" : "NA(undef)",
          "Try::Tiny" : "0.11",

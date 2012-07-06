@@ -1,3 +1,5 @@
+use lib 'inc';
+use Devel::AssertOS qw[Linux];
 
 use strict;
 use warnings;
@@ -22,7 +24,7 @@ my %module_build_args = (
     "Ioan Rogers <ioanr\@cpan.org>"
   ],
   "dist_name" => "Linux-AtaSmart",
-  "dist_version" => "1.0.2",
+  "dist_version" => "1.0.3",
   "license" => "lgpl",
   "module_name" => "Linux::AtaSmart",
   "recommends" => {},

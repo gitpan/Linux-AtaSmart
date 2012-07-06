@@ -1,6 +1,6 @@
 package Linux::AtaSmart::Constants;
 {
-    $Linux::AtaSmart::Constants::VERSION = '1.0.2';
+  $Linux::AtaSmart::Constants::VERSION = '1.0.3';
 }
 
 # ABSTRACT: Constants for libatasmart
@@ -43,8 +43,8 @@ Exporter::export_ok_tags(qw/all status tests/);
 
 1;
 
-__END__
 
+__END__
 =pod
 
 =encoding utf-8
@@ -57,7 +57,7 @@ Linux::AtaSmart::Constants - Constants for libatasmart
 
 =head1 VERSION
 
-version 1.0.2
+version 1.0.3
 
 =head1 EXPORTS
 
@@ -102,3 +102,4 @@ The development version is on github at L<http://github.com/ioanrogers/Linux-Ata
 and may be cloned from L<git://github.com/ioanrogers/Linux-AtaSmart.git>
 
 =cut
+

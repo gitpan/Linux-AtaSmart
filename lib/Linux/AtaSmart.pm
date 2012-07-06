@@ -1,6 +1,6 @@
 package Linux::AtaSmart;
 {
-    $Linux::AtaSmart::VERSION = '1.0.2';
+  $Linux::AtaSmart::VERSION = '1.0.3';
 }
 
 # ABSTRACT: XS wrapper around libatasmart
@@ -14,7 +14,7 @@ XSLoader::load;
 
 has _device     => (is => 'ro', required => 1,);
 has _disk       => (is => 'rw', builder  => 1);
-has _smart_data => (is => 'rw', default  => 0);
+has _smart_data => (is => 'rw', default  => sub {0});
 
 sub BUILDARGS {
     my ($class, @args) = @_;
@@ -180,8 +180,8 @@ sub _read_data {
 
 1;
 
-__END__
 
+__END__
 =pod
 
 =encoding utf-8
@@ -194,7 +194,7 @@ Linux::AtaSmart - XS wrapper around libatasmart
 
 =head1 VERSION
 
-version 1.0.2
+version 1.0.3
 
 =head1 SYNOPSIS
 
@@ -363,3 +363,4 @@ The development version is on github at L<http://github.com/ioanrogers/Linux-Ata
 and may be cloned from L<git://github.com/ioanrogers/Linux-AtaSmart.git>
 
 =cut
+
