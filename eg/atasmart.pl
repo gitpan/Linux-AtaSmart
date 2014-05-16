@@ -16,35 +16,32 @@ my $atasmart;
 
 try {
     $atasmart = Linux::AtaSmart->new($disk_dev);
+    my $bytes = $atasmart->get_size;
+    say 'Size: ' . format_bytes($bytes);
+
+    say 'Awake: ' .  ($atasmart->check_sleep_mode ? 'YES'  : 'NO');
+    say 'Status: ' . ($atasmart->smart_status     ? 'GOOD' : 'BAD');
+
+    say "Bad Sectors: " . $atasmart->get_bad;
+
+    say "Temperature °C: " . ($atasmart->get_temperature // "N/A");
+
+    my $status = $atasmart->get_overall;
+
+    if ($status != OVERALL_GOOD) {
+        say "STATUS NOT GOOD!";
+    }
+
+    say "Power Cycles: " . ( $atasmart->get_power_cycle // "N/A" );
+
+    my $powered_on = $atasmart->get_power_on;
+
+    say "Powered On: " . ( $powered_on ? $powered_on->pretty : "N/A" );
 }
 catch {
     say "BOOM: $_";
     exit;
 };
-
-if ($atasmart->smart_is_available) {
-    say "SMART capable";
-}
-
-my $bytes = $atasmart->get_size;
-say 'Size: ' . format_bytes($bytes);
-
-say 'Awake: ' .  ($atasmart->check_sleep_mode ? 'YES'  : 'NO');
-say 'Status: ' . ($atasmart->smart_status     ? 'GOOD' : 'BAD');
-
-say "Bad Sectors: " . $atasmart->get_bad;
-
-say "Temperature °C: " . $atasmart->get_temperature;
-
-my $status = $atasmart->get_overall;
-
-if ($status != OVERALL_GOOD) {
-    say "STATUS NOT GOOD!";
-}
-
-say "Power Cycles: " . $atasmart->get_power_cycle;
-
-say "Powered On: " . $atasmart->get_power_on->pretty;
 
 #say "Start short test";
 #$atasmart->self_test(TEST_SHORT);

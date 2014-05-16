@@ -1,8 +1,19 @@
 use strict;
 use warnings;
-use Test::More;
 
-eval 'use Test::NoTabs';
-plan skip_all => 'Test::NoTabs required' if $@;
+# this test was generated with Dist::Zilla::Plugin::Test::NoTabs 0.08
 
-all_perl_files_ok();
+use Test::More 0.88;
+use Test::NoTabs;
+
+my @files = (
+    'lib/Linux/AtaSmart.pm',
+    'lib/Linux/AtaSmart/Constants.pm',
+    't/00-check-deps.t',
+    't/00-compile.t',
+    't/00-report-prereqs.t',
+    't/01-main.t'
+);
+
+notabs_ok($_) foreach @files;
+done_testing;
